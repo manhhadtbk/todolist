@@ -1,4 +1,5 @@
 {
+  "build": "set \"CI=false\" && react-scripts build",
   "homepage": "http://{manhhadtbk}.github.io/{todolist}",
   "name": "todolist",
   "version": "0.1.0",
