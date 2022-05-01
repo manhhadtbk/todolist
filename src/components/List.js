@@ -110,19 +110,19 @@ const List = () => {
                         }}
                         onDoubleClick={
                            () => {
-                              if (listRef.current.childNodes[index].childNodes[2].style.display == 'none') {
+                              if (listRef.current.childNodes[index].childNodes[2].style.display === 'none') {
                                  listRef.current.childNodes[index].childNodes[2].style.display = 'unset'
-                              } else if (listRef.current.childNodes[index].childNodes[2].style.display == 'unset') {
+                              } else if (listRef.current.childNodes[index].childNodes[2].style.display === 'unset') {
                                  listRef.current.childNodes[index].childNodes[2].style.display = 'none'
                               }
 
-                              if (listRef.current.childNodes[index].childNodes[1].style.display == 'none') {
+                              if (listRef.current.childNodes[index].childNodes[1].style.display === 'none') {
                                  listRef.current.childNodes[index].childNodes[1].style.display = 'unset'
-                              } else if (listRef.current.childNodes[index].childNodes[1].style.display == 'unset') {
+                              } else if (listRef.current.childNodes[index].childNodes[1].style.display === 'unset') {
                                  listRef.current.childNodes[index].childNodes[1].style.display = 'none'
                               }
 
-                              if (listRef.current.childNodes[index].childNodes[1].style.display == 'none') {
+                              if (listRef.current.childNodes[index].childNodes[1].style.display === 'none') {
                                  listRef.current.childNodes[index].childNodes[2].value =
                                     listRef.current.childNodes[index].childNodes[1].innerHTML
 
